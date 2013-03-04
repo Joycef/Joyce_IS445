@@ -2,13 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <style type="text/css">
+        #TextArea1 {
+            height: 135px;
+            width: 428px;
+        }
+    </style>
 </head
     <body style="height: 80px">
 
     <header style="height: 101px"><p style="margin-left: 200px">
-        <b><center><font size="10">Figueroa, Joyce Homework #2</font></center></b></p>
-        
+        <b><center><font size="10">Figueroa, Joyce Homework #2</font></center></b></p>    
     <p style="font-weight: 700"></header>
+    <hr height="" color= rgb(0,255,0)</hr>
 <nav>
     <a href="http://joyce-is445.azurewebsites.net/Homepage.html">Home</a>&nbsp;
     <a href="http://joyce-is445.azurewebsites.net/webformdemo.html">Web Form Demo&nbsp;</a>&nbsp;
@@ -22,28 +28,51 @@
     <p>
         A demo form for hotel room reservations.
     </p>
-    <p style="font-weight: 700">
-        CUSTOMER INFORMATION:</p>
+    <fieldset>
+        <legend><p style="font-weight: 700">CUSTOMER INFORMATION:</p></legend>
     <p>
        Full Name:  <input type="textbox" name="Full Name:" size="30" />&nbsp;</p>
-    <p>
-        Email Address: <input type="textbox" name="Email Address" size="30"/>&nbsp;</p>
-    <p>
+    
+        Email Address: <input type="textbox" name="Email Address" size="30"/>&nbsp;<p>
         Phone #: <input type="textbox" name="Phone #" size="13"/>&nbsp</p>
     <p>
         &nbsp;</p>
-    <p style="font-weight: 700">
-        ROOM INFORMATION</p>
+
+    </fieldset>
+    <fieldset><legend><p style="font-weight: 700">
+        ROOM INFORMATION</p></legend>
     <p>
         Arrival Date: </p>
-<footer><p style="margin-left: 10px;">
-        &nbsp;</p>
+        <p>
+            Arrival Time: </p>
+        <p>
+            Select a room type: </p>
+        <p>
+            Number of nights (valid number is from 1 to 30):</p>
+        <p>
+            Number of guests (the maximum # of guests is 3): </p>
+        <p>
+            &nbsp;</p>
+
+    </fieldset>
+<fieldset>
+    <legend><p style="margin-left: 10px;">
+        Other Information: </p></legend>
+    <p style="margin-left: 10px;">
+        Promo Code: 
+        <input id="Text1" type="text" /></p>
+    <p style="margin-left: 10px;">
+        Special Notes: 
+        <textarea id="TextArea1" name="S1"></textarea></p>
     <p style="margin-left: 10px;">
         &nbsp;</p>
-    <p style="margin-left: 10px;">
+    </fieldset>
+
+</body>
+    <footer><p style="margin-left: 10px;">
         <strong>Contact Information:</strong></p>
     <p style="margin-left: 10px;" class="auto-style1">
         <em>Email: ondestajoyce@yahoo.com</em></p>
         </footer>
-</body>
+
 </html>
