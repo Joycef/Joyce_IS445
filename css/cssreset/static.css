@@ -2,3 +2,38 @@
     width: 680px;
     text-align: center
 }
+header {
+    background-color: blue;
+    color: white;
+    width: 680px;
+    height: 75px;
+}
+nav {
+    background-color: green;
+    color: white;
+    width: 680px;
+    height: 50px;
+}
+article {
+        background-color: purple;
+        color: white;
+        width: 453px;
+        height: 60px;
+}
+section {
+        background-color: orange;
+        color: white;
+        width: 453px;
+        height:100px;
+}
+aside  {
+        background-color: cyan;
+        color: white;
+        width: 226px;
+}
+footer {
+        background-color: green;
+        color: white;
+        width: 680px;
+        height: 50px;
+}
