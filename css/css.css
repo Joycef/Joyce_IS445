@@ -25,5 +25,7 @@ a:link {
      padding-top: 5px;
      margin-left: 20px;
      margin-right: 20px;
-
+}
+body {
+    border: 5px outset green;
 }
