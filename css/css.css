@@ -20,4 +20,7 @@ a:link {
     color: red;
     text-transform: uppercase;
 }
+ footer {
+     border: double;
+     padding-top: 5px;
 }
