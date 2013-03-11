@@ -21,6 +21,6 @@ a:link {
     text-transform: uppercase;
 }
  footer {
-     border: double;
+     border-top: double;
      padding-top: 5px;
 }
