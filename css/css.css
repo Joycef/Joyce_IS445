@@ -26,6 +26,10 @@ a:link {
      margin-left: 20px;
      margin-right: 20px;
 }
-body {
-    border: 5px outset green;
+h2 {
+    text-decoration-color: blue;
+}
+h3 {
+    text-decoration-color: purple;
+}
 }
