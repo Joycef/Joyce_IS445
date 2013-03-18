@@ -15,8 +15,10 @@ else
         do {
             q /= 2;
             counter++;
+        }
+            while (q >= 0.000001);
             document.write('<h2>'); document.write('The number of times to divide' + ' ' + number + ' ' + 'by 2 to get a value less than one millionth is' + ' ' + counter + '.');
             document.write('<h2>');
-        }
-        while (q >= 0.000001);
+            
+        
     
