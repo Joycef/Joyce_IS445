@@ -15,6 +15,6 @@ while (number >= 0.000001) {
     number /= 2; 
     count = 0.00;
     }
-    {document.write('<h2>');document.write('The number of times to divide' + ' ' + number + ' ' + 'by 2 to get a value less than one millionth is' + count');
+    {document.write('<h2>');document.write('The number of times to divide' + ' ' + number + ' ' + 'by 2 to get a value less than one millionth is' + count);
     document.write('<h2>');
     }
