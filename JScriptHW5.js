@@ -1,7 +1,7 @@
 ﻿
 var number = prompt('Please enter a number between 2 and 10: ');
 
-if (number = >2 && number <10) {
+if (number > 2 && number < 10) {
     document.write('<h2>'); document.write('Your input number is' + ' ' + number + '.');
     document.write('</h2>');
     }
