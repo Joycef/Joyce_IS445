@@ -30,6 +30,6 @@
         <h3>Expectation for this course</h3>
     <p style="margin-left: 10px;">
         I&#39;d like to become very knowledgeable about web design and gain skills to become proficient with coding. </p>
-   </body> 
+ 
 </asp:Content>
 

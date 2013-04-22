@@ -41,3 +41,12 @@ a:link {
 img {
     float: right;
 }
+.text_line {
+    clear: both;
+}
+ul {
+    text-align: center;
+}
+li {
+    text-align: center;
+}
