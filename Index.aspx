@@ -4,11 +4,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <p>
-        <strong><h2>Welcome to my home page. </h2></strong>
-    </p>
-    <p>
+    
+        <h2><strong>Welcome to my home page. </strong></h2>
+   
         <h3>Please click a link to visit other pages.</h3>
-    </p>
+   
 </asp:Content>
 
