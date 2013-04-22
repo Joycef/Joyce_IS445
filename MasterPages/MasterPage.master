@@ -11,9 +11,9 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <header><a href="/"><p style="margin-left: 200px">
-        <b><h1>Figueroa, Joyce Homework #7</h1></b>
-        <hr height="" color= rgb(0,255,0)</hr>
+        <header><a href="/"><p style="margin-left: 200px"></p>
+        <h1>Figueroa, Joyce Homework #7</h1>
+        <hr color= rgb(0,255,0) />
         </a></header>
         <nav><a href="http://joyce-is445.azurewebsites.net/Index.aspx">Home</a>&nbsp;
             <a href="http://joyce-is445.azurewebsites.net/Form.aspx">Web Form Demo&nbsp;</a>&nbsp;
