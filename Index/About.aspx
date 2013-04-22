@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <b><font size="10">
        
-        &nbsp;</font></b><h2>About myself: </h2>
+        </font></b><h2>About myself: </h2>
         
     <p style="font-weight: 700">
         <img alt="" src="http://www.clker.com/cliparts/u/M/D/7/q/9/basketball-with-lightning-bolt-hi.png"/ width="200" height="200" /></p>
