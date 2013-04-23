@@ -16,9 +16,12 @@
         <h1>Figueroa, Joyce Homework #7</h1>
         <hr color= "rgb(0,255,0)" />
         </a></header>
-        <nav><a href="http://joyce-is445.azurewebsites.net/Index.aspx">Home</a>&nbsp;
+        <nav>
+            <a href="http://joyce-is445.azurewebsites.net/Index.aspx">Home</a>&nbsp;
             <a href="http://joyce-is445.azurewebsites.net/Form.aspx">Web Form Demo&nbsp;</a>&nbsp;
-            <a href="http://joyce-is445.azurewebsites.net/About.aspx">AboutMe</a></nav>
+            <a href="http://joyce-is445.azurewebsites.net/About.aspx">AboutMe</a>
+
+        </nav>
         <section id="Main Content">
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

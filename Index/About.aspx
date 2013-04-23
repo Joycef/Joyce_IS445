@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.master" CodeBehind="About.aspx.vb" Inherits="HW7.WebForm3" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="../MasterPages/MasterPage.master" CodeBehind="About.aspx.vb" Inherits="Index.WebForm3" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
