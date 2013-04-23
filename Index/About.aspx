@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="false" CodeFile="About.aspx.vb" Inherits="About" %>
-
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.master" CodeBehind="About.aspx.vb" Inherits="HW7.WebForm3" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <b><font size="10">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<b><font size="10">
        
         </font></b><h2>About myself: </h2>
         
@@ -32,4 +31,3 @@
         I&#39;d like to become very knowledgeable about web design and gain skills to become proficient with coding. </p>
  
 </asp:Content>
-

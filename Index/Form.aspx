@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="false" CodeFile="Form.aspx.vb" Inherits="Form" %>
-
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.master" CodeBehind="Form.aspx.vb" Inherits="HW7.WebForm2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <h2>Welcome to my Web Form.</h2>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<h2>Welcome to my Web Form.</h2>
         <h3>A demo form for hotel room reservations.</h3>
     <fieldset>
          
@@ -107,7 +106,4 @@
         <form method="post"> <input id="Reset1" type="reset" value="Clear Form" onclick="formreset"/>&nbsp;<input id="Request Reservation" type="submit" value="Request Reservation"/>
             </form>
         <form method="post">&nbsp;</form>
-
-  
 </asp:Content>
-
