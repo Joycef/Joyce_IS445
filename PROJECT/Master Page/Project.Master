@@ -11,35 +11,32 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+  <div class="section">
     <header>
         <h1>Joyce Figueroa&#39;s ASP.NET Web Site in Windows Azure</h1>
-        <nav>
-        <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" 
-            DataSourceID="SiteMapDataSource1" Orientation="Horizontal" 
-            StaticEnableDefaultPopOutImage="False"></asp:Menu>
-        </nav>
-        </header>
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+          Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+      <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+          ShowStartingNode="False" />
+     </header>
+    <div class="Content">
 
-        <div class="Content">
+         <div class="sidenav">
+              <asp:TreeView ID="TreeView1" runat="server" 
+              DataSourceID="SiteMapDataSource1" ShowLines="True" CssClass="Tree">
+              </asp:TreeView>
+         </div>
+            <div class= "Maincontent">
 
-        <div class"sidenav">
-            <asp:TreeView ID="TreeView1" runat="server" 
-            DataSourceID="SiteMapDataSource1" ShowLines="True" CssClass="Tree">
-            <LevelStyles>
-            <asp:TreeNodeStyle CssClass="FirstLevelMenuItems" />
-            </LevelStyles>
-            </asp:TreeView>
-        </div>
-        
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
-        <nav>
-        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
-            ShowStartingNode="False" />
-        </nav>
-        </div>
-    </div>
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server" ParentLevelsDisplayed="1">
+                </asp:SiteMapPath>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+           </div>
+     </div>
+  </div>
     </form>
 </body>
 </html>

@@ -3,18 +3,18 @@ width: 900px;
 margin-left:auto;
 margin-right:auto;
 }
-#ContentPlaceHolder1
+div.Maincontent
 {
     width: 600px;
     float: right;
     }
-.Tree {
+div.sidenav {
     float: left}
 h1
 {
-text-align:center;
+    text-align:center;
 }
-.MainMenu
+div.section #Menu1
 {
     text-align:center;
 }

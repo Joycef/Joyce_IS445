@@ -8,3 +8,13 @@ C:\Documents and Settings\Joyce\Joyce_IS445project\PROJECT\PROJECT\obj\Debug\Gen
 C:\Documents and Settings\Joyce\Joyce_IS445project\PROJECT\PROJECT\obj\Debug\PROJECT.dll
 C:\Documents and Settings\Joyce\Joyce_IS445project\PROJECT\PROJECT\obj\Debug\PROJECT.xml
 C:\Documents and Settings\Joyce\Joyce_IS445project\PROJECT\PROJECT\obj\Debug\PROJECT.pdb
+C:\Users\cbait-oal\Joyce_IS445\PROJECT\bin\PROJECT.dll
+C:\Users\cbait-oal\Joyce_IS445\PROJECT\bin\PROJECT.pdb
+C:\Users\cbait-oal\Joyce_IS445\PROJECT\bin\PROJECT.xml
+C:\Users\cbait-oal\Joyce_IS445\PROJECT\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cbait-oal\Joyce_IS445\PROJECT\obj\Debug\PROJECT.Resources.resources
+C:\Users\cbait-oal\Joyce_IS445\PROJECT\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\cbait-oal\Joyce_IS445\PROJECT\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\cbait-oal\Joyce_IS445\PROJECT\obj\Debug\PROJECT.dll
+C:\Users\cbait-oal\Joyce_IS445\PROJECT\obj\Debug\PROJECT.xml
+C:\Users\cbait-oal\Joyce_IS445\PROJECT\obj\Debug\PROJECT.pdb
