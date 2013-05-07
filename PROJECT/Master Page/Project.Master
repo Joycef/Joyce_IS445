@@ -12,21 +12,25 @@
 <body>
     <form id="form1" runat="server">
     <div>
+    <header>
         <h1>Joyce Figueroa&#39;s ASP.NET Web Site in Windows Azure</h1>
         <nav>
         <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" 
             DataSourceID="SiteMapDataSource1" Orientation="Horizontal" 
             StaticEnableDefaultPopOutImage="False"></asp:Menu>
         </nav>
-        <nav>
+        </header>
 
+        <div class="Content">
+
+        <div class"sidenav">
             <asp:TreeView ID="TreeView1" runat="server" 
             DataSourceID="SiteMapDataSource1" ShowLines="True" CssClass="Tree">
             <LevelStyles>
             <asp:TreeNodeStyle CssClass="FirstLevelMenuItems" />
             </LevelStyles>
             </asp:TreeView>
-        </nav>
+        </div>
         
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
@@ -34,6 +38,7 @@
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
             ShowStartingNode="False" />
         </nav>
+        </div>
     </div>
     </form>
 </body>
