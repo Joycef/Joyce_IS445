@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-  <div class="section">
+  <div >
     <header>
         <h1>Joyce Figueroa&#39;s ASP.NET Web Site in Windows Azure</h1>
         <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
