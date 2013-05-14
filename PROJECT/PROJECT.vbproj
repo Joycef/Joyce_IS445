@@ -94,7 +94,7 @@
     <Content Include="Form-LayoutDemos\LayoutDemo\Absolute.aspx" />
     <Content Include="Form-LayoutDemos\LayoutDemo\Float.aspx" />
     <Content Include="Form-LayoutDemos\LayoutDemo\Static.aspx" />
-    <Content Include="Form-LayoutDemos\WebForm1.aspx" />
+    <Content Include="Form-LayoutDemos\WebForm.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="ServerSideDemos\SCalcNumber.aspx" />
     <Content Include="ServerSideDemos\SNestedLoop.aspx" />
@@ -156,11 +156,11 @@
       <DependentUpon>Static.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Form-LayoutDemos\WebForm1.aspx.designer.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Form-LayoutDemos\WebForm.aspx.designer.vb">
+      <DependentUpon>WebForm.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Form-LayoutDemos\WebForm1.aspx.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Form-LayoutDemos\WebForm.aspx.vb">
+      <DependentUpon>WebForm.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.vb">
